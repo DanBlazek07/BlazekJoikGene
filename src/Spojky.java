@@ -9,7 +9,7 @@ public class Spojky extends Generator{
         Random rn = new Random();
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/Spojky"));
-            int a = rn.nextInt(5);
+            int a = rn.nextInt(6);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
