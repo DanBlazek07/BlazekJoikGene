@@ -11,7 +11,7 @@ public class PodMuzsky extends Generator {
         Random rn = new Random();
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/PodstatnaJmena/muzsky"));
-            int a = rn.nextInt(28);
+            int a = rn.nextInt(36);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
