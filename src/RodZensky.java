@@ -10,7 +10,7 @@ public class RodZensky extends Generator{
         Random rn = new Random();
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/PodstatnaJmena/zensky"));
-            int a = rn.nextInt(12);
+            int a = rn.nextInt(14);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
