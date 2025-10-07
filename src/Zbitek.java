@@ -11,7 +11,7 @@ public class Zbitek extends Generator {
 
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/Zbitek"));
-            int a = rn.nextInt(6);
+            int a = rn.nextInt(7);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
