@@ -10,7 +10,7 @@ public class PridJmena extends Generator{
         String s = "";
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/pridJmenaMuz"));
-            int a = rn.nextInt(14);
+            int a = rn.nextInt(15);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
