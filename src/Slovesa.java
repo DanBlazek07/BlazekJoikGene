@@ -11,7 +11,7 @@ public class Slovesa extends Generator {
         String s = "";
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/Slovesa"));
-            int a = rn.nextInt(10);
+            int a = rn.nextInt(13);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
@@ -23,7 +23,7 @@ public class Slovesa extends Generator {
 
     @Override
     public int nextWord() {
-        return switch (rn.nextInt(3)) {
+        return switch (rn.nextInt(6)) {
             case 0 -> 8;
             case 1 -> -1;
             case 2 -> 9;
