@@ -10,7 +10,7 @@ public class Pad4 extends Generator{
 
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/PodstatnaJmena/PodstatnáJména4pád"));
-            int a = rn.nextInt(43);
+            int a = rn.nextInt(46);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
@@ -19,6 +19,17 @@ public class Pad4 extends Generator{
         }
         return s;
     }
+
+    @Override
+    public int nextWord() {
+        return switch (rn.nextInt(3)) {
+            case 0 -> 3;
+            case 1 -> 3;
+            case 2 -> -1;
+            default -> 3;
+        };
+    }
+}
 
     @Override
     public int nextWord() {
