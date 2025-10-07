@@ -9,7 +9,7 @@ public class Pad3 extends Generator{
         Random rn = new Random();
         try {
             BufferedReader bf = new BufferedReader(new FileReader("src/PodstatnaJmena/PodstatnáJména3pád"));
-            int a = rn.nextInt(43);
+            int a = rn.nextInt(46);
             for (int i = 0; i < a; i++) {
                 s = bf.readLine();
             }
